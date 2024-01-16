@@ -88,6 +88,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+  
 
 }
 .logo-nav{
@@ -107,8 +108,10 @@ a {
 @media only screen and (min-width: 375px) {
 .logo-nav  {
     margin-right: auto;
+    margin-left: auto;
+    padding-right: 14px;
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
         align-items: center;
         width: 335px;
         height: 50px;
@@ -124,7 +127,7 @@ a {
 .logo-nav {       
         width: 504px;
         height: 60px;
-      
+        justify-content: space-between;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -145,6 +148,7 @@ a {
 
 .header-logo {
     padding-left: 50px;
+    padding-right: 90px;
     
 }
 
@@ -212,6 +216,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 14px;
 }
 
 
@@ -239,12 +244,16 @@ fill: #BEA69E;
 .burger-btn {
     background-color: transparent;
     border-color: transparent;
+    width: 32px;
+     height: 32px;
 }
 
 
 @media only screen and (min-width: 769px) {
 .burger-btn {
     display: none;
+       width: 40px;
+     height: 28px;
   }
 }
 
@@ -258,9 +267,11 @@ fill: #BEA69E;
 }
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
 .signup-button {
     display: none;
+    max-width: 0;
+   max-height: 0;
   }
 }
    
